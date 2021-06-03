@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.EventHubs" Version="4.3.2" />
+    <PackageReference Include="NLog" Version="4.7.10" />
+  </ItemGroup>
+
+	<PropertyGroup>
+		<PackageId>AzureEventHubNLogTarget</PackageId>
+		<Version>1.5.1</Version>
+		<Authors>Ananth Eswar</Authors>
+		<PackageTags>Microsoft Azure Event Hub;Microsoft;Azure;NLog;Target;NLogTarget;</PackageTags>
+		<Description>
+			This client library enables you to add this AzureEventHubNLogTarget to your project and start logging logs to Event hub via NLog.
+		</Description>
+	</PropertyGroup>
+
+</Project>
